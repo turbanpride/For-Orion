@@ -31,7 +31,6 @@ class Paginator extends Component
                 <div onClick={self.sendPageClickedVal.bind(this,i)} className={(self.props.pageSearched === i)?("selected-page paginator-div"):("paginator-div")} key={i}>{i}</div>
             );
         }
-        console.log(this.props.responseData);
         return(
            (this.props.searchedVal.length>0 && this.props.responseData.Response !== "False")?(
             <div className="paginator-main">
