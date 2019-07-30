@@ -1,0 +1,17 @@
+img
+{
+    height: 70%;
+    width: 85%;
+}
+.image-details p
+{
+ margin-bottom: 1px !important;
+}
+.noResultParagraph
+{
+    width: 100%;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 2%;
+}
+

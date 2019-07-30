@@ -1,0 +1,15 @@
+.paginator-div
+{
+    padding: 0.2%;
+    display: inline-block;
+    font-weight: 100;
+    cursor: pointer;
+}
+.selected-page
+{
+    font-weight: 700 !important;
+}
+/* .paginator-main
+{
+    visibility: hidden;
+} */
